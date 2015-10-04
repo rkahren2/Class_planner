@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C1510" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Assignment" representedClassName="Class_Planner.Assignment" syncable="YES">
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dueDateString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Course" representedClassName="Class_Planner.Course" syncable="YES">
+        <attribute name="courseID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fridayBool" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="instructorEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instructorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instructorPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayBool" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="saturdayBool" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayBool" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tuesdayBool" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="wednesdayBool" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Note" representedClassName="Class_Planner.Note" syncable="YES">
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Course" positionX="-63" positionY="-18" width="128" height="300"/>
+        <element name="Note" positionX="-63" positionY="108" width="128" height="88"/>
+        <element name="Assignment" positionX="-63" positionY="108" width="128" height="120"/>
+    </elements>
+</model>
